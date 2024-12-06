@@ -1,0 +1,17 @@
+.btn{
+    padding: .5rem;
+    margin-right: .7rem;
+    background-color:crimson ;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition:  all .2s ease-in-out;
+}
+
+.btn:hover{
+    background-color:brown ;
+}

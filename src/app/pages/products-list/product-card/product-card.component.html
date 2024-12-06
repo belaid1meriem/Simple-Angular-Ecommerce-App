@@ -1,0 +1,12 @@
+<div class="product-card">
+    <div class="indicator">
+        @if(product().stock) {
+            <p class="green">{{product().stock}} left</p>
+        }@else {<p class="red">Out of stock</p>}
+        
+    </div>
+    <img [src]="product().image" alt="Product Image" class="product-img">
+    <h4>{{ product().title }}</h4>
+    <p>${{ product().price }}</p>
+    <app-reusable-btn btnLabel="Add to cart" (btnEvent)="cartService.addToCart(product())"/>
+</div>

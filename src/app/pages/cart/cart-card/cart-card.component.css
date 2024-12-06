@@ -1,0 +1,23 @@
+.cart-item{
+    border:none;
+    border-radius: 7px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 1rem
+}
+
+.cart-item img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: contain;
+}

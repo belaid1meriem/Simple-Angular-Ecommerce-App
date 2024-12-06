@@ -1,0 +1,44 @@
+.product-card{
+    padding: .5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.product-img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.product-card h4{
+    margin-top: 1rem;
+}
+
+.product-card p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.indicator{
+    position: absolute;
+    top: 0.1rem;
+    right: 1rem;
+    transition: width 0.5s;
+}
+.green{
+    color:darkgreen
+}
+
+.red{
+    color:crimson
+}

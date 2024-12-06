@@ -1,0 +1,7 @@
+<div class="cart-list">
+    @for(product of cartService.cart(); track product.id){
+       <app-cart-card [product]="product"/>
+    }
+</div>
+
+<app-cart-summary [totalPrice]="cartService.getTotalPrice()"/>

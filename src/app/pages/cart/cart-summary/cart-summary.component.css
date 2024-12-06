@@ -1,0 +1,15 @@
+.card{
+    border:none;
+    border-radius: 7px;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color:rgb(246, 223, 193);
+    transition: all 0.2s ease-in-out;
+    margin: 2rem;
+}
+.bold{
+    font-weight: bold;
+}
+
